@@ -8,6 +8,7 @@ exports.create = (req, res) => {
         message: "Content can not be empty!"
       });
     }
+  
     // Create a Customer
     const customer = new Customer({
       email: req.body.email,
